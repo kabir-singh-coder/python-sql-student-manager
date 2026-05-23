@@ -1,1 +1,31 @@
+# PYTHON
 
+r = int(input("Enter Roll No: "))
+
+n = input("Enter Name: ")
+
+m = int(input("Enter Marks: "))
+
+
+# SQL
+
+CREATE TABLE student(
+    rollno INTEGER,
+    name TEXT,
+    marks INTEGER
+);
+
+INSERT INTO student VALUES(rollno,name,marks);
+
+SELECT * FROM student;
+
+DELETE FROM student WHERE rollno= ;
+
+SELECT MAX(marks) FROM student;
+
+SELECT MIN(marks) FROM student;
+
+SELECT AVG(marks) FROM student;
+
+SELECT COUNT(*) FROM student;
+)
